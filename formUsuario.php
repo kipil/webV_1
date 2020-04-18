@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="col-lg-12 mb-5">
-        <h2 class="mb-4">Registro para Usuarios</h2>
+        <h2 class="mb-4 title-form">Registro para Usuarios</h2>
 
         <form action="app/imagen.php" method="post" enctype='multipart/form-data' class="p-4 border rounded formContainer"  >
             

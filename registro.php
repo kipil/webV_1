@@ -16,13 +16,9 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/quill.snow.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/alertfy/alertfy.min.css">
-    <script src="js/alertify.min.js"></script>
-   
-
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/EstilosRegistro.css">
 
   
 </head>
@@ -61,12 +57,10 @@
 
                     <div class="right-cta-menu text-right d-flex aligin-items-center col-6">
                         <div class="ml-auto">
-                            <a href="post-job.html"
-                                class="btn btn-outline-white border-width-2 d-none d-lg-inline-block"><span
-                                    class="mr-2 icon-add"></span>Publicar Trabajo</a>
+                           
                             <a href="login.html" class="btn btn-primary border-width-2 d-none d-lg-inline-block"><span
                                     class="mr-2 icon-lock_outline"></span>Iniciar Sesión</a>
-                            <a href="login.html" class="btn btn-primary border-width-2 d-none d-lg-inline-block"><span
+                            <a href="registro.php" class="btn btn-primary border-width-2 d-none d-lg-inline-block"><span
                                     class="mr-2 icon-lock_outline"></span>Registrarse</a>
                         </div>
                         <a href="#" class="site-menu-toggle js-menu-toggle d-inline-block d-xl-none mt-lg-2 ml-3"><span
@@ -85,8 +79,8 @@
                     <div class="col-md-7">
                         <h1 class="text-white font-weight-bold">Registro</h1>
                         <div class="custom-breadcrumbs">
-                            <a href="#" class="btn active">Empresa</a> <span class="mx-2 slash">/</span>
-                            <span class="text-white"><strong>Usuario</strong></span>
+                            <a href="index.php" class="btn active">Inicio</a> <span class="mx-2 slash">/</span>
+                            <span class="text-white active" ><strong>Usuario</strong></span>
                         </div>
                     </div>
                 </div>
@@ -99,10 +93,8 @@
             <div class="container">
                 <div class="row ">
 
-                    <button class="btn-success col-lg-6 mb-5 active" type="button" id="btnUsuario" onclick="userForm()" >Registrarse Como Usuario</button>
-                    <button class="btn-success col-lg-6 mb-5 active" type="button" id="btnEmpresa" onclick="empresaForm()">Registrarse Como Empresa</button>
-
-                    
+                    <button class="col-lg-5 mb-6 active btnCallForm" type="button" id="btnUsuario" onclick="userForm()" >Registrarse Como Usuario</button>
+                    <button class="col-lg-5 mb-6 active btnCallForm" type="button" id="btnEmpresa" onclick="empresaForm()">Registrarse Como Empresa</button>
 
                     <div class="col-lg-12 mb-5 " id="container-usuario-form" ></div>
                     <div class="col-lg-12 mb-5 " id="container-empresa-form"></div>
@@ -189,15 +181,15 @@
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/jquery.easing.1.3.js"></script>
 
+ 
+
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/jquery.animateNumber.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/quill.min.js"></script>
     <script src="js/previsualizar.js"></script>
     <script src="js/bootstrap-select.min.js"></script>
-
     <script src="js/custom.js"></script>
-    <script src="js/previsualizar.js"></script>
 
 
 </body>

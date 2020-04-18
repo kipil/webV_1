@@ -11,7 +11,7 @@
 
     <!-- Segundo form-->
     <div class="col-lg-12 mb-8">
-        <h2 class="mb-4">Registro para Empresas</h2>
+        <h2 class="mb-4 title-form">Registro para Empresas</h2>
         <form action="#" class="p-4 border rounded formContainer">
 
 
@@ -149,7 +149,7 @@
                     <span class="mr-2 icon-drawe-upload"></span>
                     <br/>
                     <div id="divFileUpload">
-                        <label class="btn btn-primary btn-md btn-file" for="">Cargar Imagen
+                        <label class="btn btn-primary btn-md btn-file" for="">Cargar Logotipo
                    
                         <input name="files[]" type="file" id="files" class="form-control" />
                         <br />

@@ -49,11 +49,11 @@
     <header class="site-navbar mt-3">
       <div class="container-fluid">
         <div class="row align-items-center">
-          <div class="site-logo col-6"><a href="index.html">XTrabajos</a></div>
+          <div class="site-logo col-6"><a href="index.php">XTrabajos</a></div>
           
           <div class="right-cta-menu text-right d-flex aligin-items-center col-6">
             <div class="ml-auto">
-              <a href="post-job.html" class="btn btn-outline-white border-width-2 d-none d-lg-inline-block"><span class="mr-2 icon-add"></span>Publicar Trabajo</a>
+             <!-- <a href="post-job.html" class="btn btn-outline-white border-width-2 d-none d-lg-inline-block"><span class="mr-2 icon-add"></span>Publicar Trabajo</a>-->
               <a href="login.html" class="btn btn-primary border-width-2 d-none d-lg-inline-block"><span class="mr-2 icon-lock_outline"></span>Iniciar Sesión</a>
               <a href="registro.php" class="btn btn-primary border-width-2 d-none d-lg-inline-block" id="btnRegistro"><span class="mr-2 icon-lock_outline"></span>Registrarse</a>
             </div>
@@ -72,30 +72,45 @@
           <div class="col-md-12">
             <div class="mb-5 text-center">
               <h1 class="text-white font-weight-bold">El Trabajo de tus Sueños te está Esperando</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate est, consequuntur perferendis.</p>
+            
             </div>
+
+            
             <form method="post" class="search-jobs-form">
-              <div class="row mb-5">
-                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+
+              <div class="row mb-5 align-items-center">
+
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 mb-4 mb-lg-0">
                   <input type="text" class="form-control form-control-lg" placeholder="Título del trabajo, compañía..">
                 </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
-                  <select class="selectpicker" data-style="btn-white btn-lg" data-width="100%" data-live-search="true" title="Región">
-                    
+
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 mb-4 mb-lg-0">
+                  <select class="selectpicker" data-style="btn-white btn-lg" data-width="100%" data-live-search="true" title="Estado">
                       <?php include 'app/region.php'?>
-                      
                   </select>
                 </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
-                  <select class="selectpicker" data-style="btn-white btn-lg" data-width="100%" data-live-search="true" title="Tipo de trabajo">
-                    <option>Part Time</option>
-                    <option>Full Time</option>
+
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 mb-4 mb-lg-0">
+                  <select class="selectpicker" data-style="btn-white btn-lg" data-width="100%" data-live-search="true" title="Municipio">
+                      <?php include 'app/region.php'?>
                   </select>
                 </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
-                  <button type="submit" class="btn btn-primary btn-lg btn-block text-white btn-search"><span class="icon-search icon mr-2"></span>Search Job</button>
+
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 mb-4 mb-lg-0">
+                  <select class="selectpicker" data-style="btn-white btn-lg" data-width="100%" data-live-search="true" title="Jornada Laboral">
+                    <option>Medio Tiempo</option>
+                    <option>Tiempo completo</option>
+                  </select>
                 </div>
+                
               </div>
+
+              <div class="row justify-content-center">
+                  <div class="col align-self-end col-12 col-sm-4 col-md-6 col-lg-4 mb-4 mb-lg-12 ">
+                    <button type="submit" class="btn btn-primary btn-lg btn-block text-white btn-search"><span class="icon-search icon mr-2"></span>Buscar Empleo</button>
+                  </div>
+              </div>
+         
               <div class="row">
                 <div class="col-md-12 popular-keywords">
                   <h3>Trending Keywords:</h3>

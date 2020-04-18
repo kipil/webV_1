@@ -1,33 +1,5 @@
 
-/*function readFile(input) {
-    if (input.files && input.files[0]) {
-        var reader = new FileReader();
-        reader.onload = function (e) {
-            img=document.createElement('img');
-            img.style.width="200px";
-            img.style.heigth="200px";
-            //img.className="img-fluid";
-            var filePreview = img;
-            filePreview.id = 'file-preview';
-            filePreview.src = e.target.result;
-            console.log(e.target.result);
 
-          
-            var previewZone = document.getElementById('file-preview-zone');
-            previewZone.appendChild(filePreview);
-        }
-        reader.readAsDataURL(input.files[0]);
-    }
-
-    
-
-}
-
-var fileUpload = document.getElementById('file-upload');
-    fileUpload.onchange = function (e) {
-        readFile(e.srcElement);
-    }
-*/
 function archivo(evt) {
     var files = evt.target.files; // FileList object
 
@@ -65,21 +37,21 @@ function userForm(){
 }
 
 function empresaForm(){
+  
     $(document).ready(function(){
 
         $("#btnEmpresa").click(function(evento){
+          
             evento.preventDefault();
-            $("#container-usuario-form").load("formEmpresa.html");
+            $("#container-usuario-form").load("formEmpresa.php");
+          
         });
     });
     
 }
 
+
+
 /*
 
-if (window.confirm("Do you really want to leave?")) { 
-  window.open("exit.html", "Thanks for Visiting!");
-}
-
-*/
-
+  }*/
